@@ -2,11 +2,14 @@ Package: citmre
 Type: Package
 Title: cITMre (Colombian Index Tool Market Rate Exchange)
 Version: 0.1.0
-Authors@R: 
+Authors@R: c(
     person("Sergio", "Sierra-Luján", email = "sergiochess95@gmail.com", role = c("aut","cph"),
-           comment = c(ORCID = "0000-0003-4055-8810"))
+           comment = c(ORCID = "0000-0003-4055-8810")
+           ),
     person("David", "Rodríguez", email ="davestss@hotmail.com", role = c("aut","cre"),
-           comment = c(ORCID = "0000-0001-5430-0787"))
+           comment = c(ORCID = "0000-0001-5430-0787")
+           )
+        )
 Description: The Colombian Index Tool (Market Rate Exchange) package downloads the Colombian Market Rate from the source: https://www.datos.gov.co/Econom-a-y-Finanzas/TRM/ceyp-9c7c/data, for direct use in R.
 License: MIT + file LICENSE
 URL: https://github.com/DavRodEcon/citmre
