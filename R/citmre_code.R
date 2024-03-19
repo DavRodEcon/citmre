@@ -78,10 +78,10 @@ rmre_data <- function(start_date = NULL, end_date = NULL, log_return = FALSE, pl
       stop("Error: 'type' must be 'mean' or 'last_date'")
     }
 
-    if (!is.null(start_date) && weekdays(as.Date(start_date)) %in% c("sábado", "domingo")) {
+    if (!is.null(start_date) && weekdays(as.Date(start_date)) %in% c("s\u00e1bado", "domingo")) {
       warning("start_date: The piece of information will be obtained from the next business day, as the desired date falls on a holiday or weekend.")
     }
-    if (!is.null(end_date) && weekdays(as.Date(end_date)) %in% c("sábado", "domingo")) {
+    if (!is.null(end_date) && weekdays(as.Date(end_date)) %in% c("s\u00e1bado", "domingo")) {
       warning("end_date: The piece of information will be obtained from the next business day, as the desired date falls on a holiday or weekend.")
     }
 

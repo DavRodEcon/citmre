@@ -96,7 +96,6 @@ Finally, some researchers feel that displaying a dynamic graph increases the ana
 rmre_data(start_date = "1998-03-18", end_date = "2019-06-26",frequency = 12, plot_data = T)
 
 ```
-![](C:/Users/davidrodriguez/OneDrive - itm.edu.co/Con Sergio Sierra/citmre/citmre_development/newplot.png){width="98%"}
 
 # Final considerations
 
