@@ -85,10 +85,10 @@ rmre_data <- function(start_date = NULL, end_date = NULL, log_return = FALSE, pl
     }
 
     if (!is.null(start_date) && is_weekend(start_date)) {
-      warning("start_date: The piece of information will be obtained from the next business day, as the desired date falls on a holiday or weekend.")
+      warning("start_date:The information will be obtained from the next business day, as the desired date is a holiday or weekend.")
     }
     if (!is.null(end_date) && is_weekend(end_date)) {
-      warning("end_date: The piece of information will be obtained from the next business day, as the desired date falls on a holiday or weekend.")
+      warning("end_date: The information will be obtained from the next business day, as the desired date is a holiday or weekend.")
     }
 
     df_data <- subset(df_data, vigenciahasta >= start_date & vigenciahasta <= end_date)
