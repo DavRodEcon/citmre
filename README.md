@@ -17,7 +17,7 @@ You can install the development version of citmre from:
 [GitHub](https://github.com/DavRodEcon/citmre)
 
 ``` r
-# install.packages("citmre")
+install.packages("citmre")
 devtools::install_github("DavRodEcon/citmre")
 ```
 
