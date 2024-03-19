@@ -1,28 +1,19 @@
----
-output: github_document
----
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
-)
-```
 
 # citmre
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The Colombian Index Tool (Market Rate Exchange) package downloads the Colombian Market Rate from the source: https://www.datos.gov.co/Econom-a-y-Finanzas/TRM/ceyp-9c7c/data, for direct use in R.
+The Colombian Index Tool (Market Rate Exchange) package downloads the
+Colombian Market Rate from the source:
+<https://www.datos.gov.co/Econom-a-y-Finanzas/TRM/ceyp-9c7c/data>, for
+direct use in R.
 
 ## Installation
 
-You can install the development version of citmre from: 
+You can install the development version of citmre from:
 [GitHub](https://github.com/DavRodEcon/citmre)
 
 ``` r
@@ -34,7 +25,7 @@ devtools::install_github("DavRodEcon/citmre")
 
 This is a basic example which shows you how to solve a common problem:
 
-```{r example}
+``` r
 library(citmre)
 #Show full series dataset
 rmre_serie <- rmre_data( )
@@ -52,3 +43,4 @@ rmre_splited <- rmre_data('2000-01-01','2023-12-31',log_return = TRUE)
 plot(rmre_serie)
 ```
 
+<img src="man/figures/README-example-1.png" width="100%" />
