@@ -12,7 +12,7 @@ Authors@R: c(
         )
 Description: The Colombian Index Tool (Market Rate Exchange) package downloads the Colombian Market Rate from the source: https://www.datos.gov.co/Econom-a-y-Finanzas/TRM/ceyp-9c7c/data, for direct use in R.
 License: MIT + file LICENSE
-URL: https://github.com/DavRodEcon/citmre
+URL: https://github.com/DavRodEcon/citmre, https://davrodecon.github.io/citmre/
 BugReports: https://github.com/DavRodEcon/citmre
 Encoding: UTF-8
 LazyData: true
