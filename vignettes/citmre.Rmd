@@ -29,7 +29,7 @@ The tool allows us to obtain:
 
 # Motivation
 
-Obtaining information from the Colombian RMRE is relatively straightforward; the search in the official state database <https://www.datos.gov.co/Econom-a-y-Finanzas/TRM/ceyp-9c7c/data> allows the data to be downloaded in .xls or .csv. In economics or financial sciences, obtaining and loading this information into R can be frustrating, forcing many users to create a routine function linked to the database limited to the user's expertise. Thus, this tool aims to facilitate both the loading of data and the use of essential RMRE time series analysis tools.
+Obtaining information from the Colombian RMRE is relatively straightforward; the search in the official state database Portal de Datos Abiertos <www.datos.gov.co> allows the data to be downloaded in .xls or .csv. In economics or financial sciences, obtaining and loading this information into R can be frustrating, forcing many users to create a routine function linked to the database limited to the user's expertise. Thus, this tool aims to facilitate both the loading of data and the use of essential RMRE time series analysis tools.
 
 Note: The information discounts weekends and holidays; the function approximates the nearest trade date.
 
@@ -100,3 +100,7 @@ rmre_data(start_date = "1998-03-18", end_date = "2019-06-26",frequency = 12, plo
 # Final considerations
 
 This tool can be used for time series analysis with an xts class condition; therefore, the user can transform the series to ts if any tool conflicts with an xts series.
+
+# References
+Source: Portal de Datos Abiertos <www.datos.gov.co> 
+

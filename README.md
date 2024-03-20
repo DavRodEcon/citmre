@@ -36,9 +36,19 @@ rmre_splited <- rmre_data(frequency = 4, log_return = T, plot_data = T, type = "
 
 #Show splited log return dataset
 rmre_splited <- rmre_data('2000-01-01','2023-12-31',log_return = TRUE)
+#> Warning in doTryCatch(return(expr), name, parentenv, handler): start_date: The
+#> piece of information will be obtained from the next business day, as the
+#> desired date falls on a holiday or weekend.
+#> Warning in doTryCatch(return(expr), name, parentenv, handler): end_date: The
+#> piece of information will be obtained from the next business day, as the
+#> desired date falls on a holiday or weekend.
 
 #plot
 plot(rmre_serie)
 ```
 
 <img src="man/figures/README-example-1.png" width="100%" />
+
+## References
+
+Source: Portal de Datos Abiertos \<www.datos.gov.co\>

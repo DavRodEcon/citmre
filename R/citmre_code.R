@@ -1,5 +1,5 @@
 #' @title rmre_data (Representative Market Rate Exchange) dataset
-#' @description Download the colombian RMRE (Representative Market Rate Exchange) from from the source: https://www.datos.gov.co/Econom-a-y-Finanzas/TRM/ceyp-9c7c/data
+#' @description Download the colombian RMRE source: Portal de Datos Abiertos <www.datos.gov.co>
 #'
 #' @import dplyr
 #' @import httr
@@ -9,8 +9,8 @@
 #' @importFrom xts xts
 #' @importFrom stats na.omit
 #'
-#' @param start_date An initial date in the "Y-M-D" type; by default, the series starts on the first date of the resource
-#' @param end_date A final date in the "Y-M-D" form; by default, it shows the updated last date on the resource.
+#' @param start_date An initial date in the "YYYY-MM-DD" type; by default, the series starts on the first date of the resource
+#' @param end_date A final date in the "YYYY-MM-DD" form; by default, it shows the updated last date on the resource.
 #' @param log_return Show the log return of the RMRE (Representative Market Rate Exchange) dataset; if it is TRUE, show the log return dataset; if it is FALSE, show the level dataset; in default, show the level dataset
 #' @param plot_data Show a Plotly linear graph data set; by default, the argument is false, and the graph is built in the Viewer option. You can use the basic plot if the user does not use the plot_data option.
 #' @param frequency Show frequencies for the data set in daily (365), month (12), quarter (4), and half-year (2); in default, the dataset is the daily frequency.

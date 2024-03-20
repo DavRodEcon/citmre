@@ -1,5 +1,6 @@
 ---
 output: github_document
+
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -18,7 +19,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The Colombian Index Tool (Market Rate Exchange) package downloads the Colombian Market Rate from the source: https://www.datos.gov.co/Econom-a-y-Finanzas/TRM/ceyp-9c7c/data, for direct use in R.
+The Colombian Index Tool (Market Rate Exchange) package downloads the Colombian Market Rate from the source: <https://www.datos.gov.co/Econom-a-y-Finanzas/TRM/ceyp-9c7c/data>, for direct use in R.
 
 ## Installation
 
@@ -49,4 +50,8 @@ rmre_splited <- rmre_data('2000-01-01','2023-12-31',log_return = TRUE)
 #plot
 plot(rmre_serie)
 ```
+
+## References
+Source: Portal de Datos Abiertos <www.datos.gov.co> 
+
 

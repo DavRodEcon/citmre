@@ -10,7 +10,7 @@ Authors@R: c(
            comment = c(ORCID = "0000-0001-5430-0787")
            )
         )
-Description: The Colombian Index Tool (Market Rate Exchange) package downloads the Colombian Market Rate from the source: https://www.datos.gov.co/Econom-a-y-Finanzas/TRM/ceyp-9c7c/data, for direct use in R.
+Description: The Colombian Index Tool (Market Rate Exchange) package downloads the Colombian Market Rate from the source: Portal de Datos Abiertos <www.datos.gov.co>, for direct use in R.
 License: MIT + file LICENSE
 URL: https://github.com/DavRodEcon/citmre, https://davrodecon.github.io/citmre/
 BugReports: https://github.com/DavRodEcon/citmre
