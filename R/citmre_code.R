@@ -146,7 +146,7 @@ rmre_data <- function(start_date = NULL, end_date = NULL, log_return = FALSE, pl
 
     if (frequency == 12) {
       result <- df_data %>%
-        group_by(Month = floor_date(date, unit = "month")) %>%
+        group_by(Month = ceiling_date(date, unit = "month") - days(1)) %>%
         summarise(
           Valor = ifelse(type == "mean", mean(rmre, na.rm = TRUE), last(rmre)))
       result_plot <- as.data.frame(result)
@@ -196,7 +196,7 @@ rmre_data <- function(start_date = NULL, end_date = NULL, log_return = FALSE, pl
 
     } else if (frequency == 4) {
       result <- df_data %>%
-        group_by(Quarter = floor_date(date, unit = "quarter")) %>%
+        group_by(Quarter = ceiling_date(date, unit = "quarter") - days(1)) %>%
         summarise(
           Valor = ifelse(type == "mean", mean(rmre, na.rm = TRUE), last(rmre)))
       result_plot <- as.data.frame(result)
@@ -246,7 +246,7 @@ rmre_data <- function(start_date = NULL, end_date = NULL, log_return = FALSE, pl
 
     } else if (frequency == 2) {
       result <- df_data %>%
-        group_by(Semester = floor_date(date, unit = "6 months")) %>%
+        group_by(Semester = ceiling_date(date, unit = "6 months") - days(1)) %>%
         summarise(
           Valor = ifelse(type == "mean", mean(rmre, na.rm = TRUE), last(rmre)))
       result_plot <- as.data.frame(result)
