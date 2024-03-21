@@ -14,9 +14,9 @@ rmre_data(
 )
 }
 \arguments{
-\item{start_date}{An initial date in the "Y-M-D" type; by default, the series starts on the first date of the resource}
+\item{start_date}{An initial date in the "YYYY-MM-DD" type; by default, the series starts on the first date of the resource}
 
-\item{end_date}{A final date in the "Y-M-D" form; by default, it shows the updated last date on the resource.}
+\item{end_date}{A final date in the "YYYY-MM-DD" form; by default, it shows the updated last date on the resource.}
 
 \item{log_return}{Show the log return of the RMRE (Representative Market Rate Exchange) dataset; if it is TRUE, show the log return dataset; if it is FALSE, show the level dataset; in default, show the level dataset}
 
@@ -30,7 +30,7 @@ rmre_data(
 dataset in xts and zoo type
 }
 \description{
-Download the colombian RMRE (Representative Market Rate Exchange) from from the source: https://www.datos.gov.co/Econom-a-y-Finanzas/TRM/ceyp-9c7c/data
+Download the colombian RMRE source: Portal de Datos Abiertos <www.datos.gov.co>
 }
 \examples{
 #Show full series dataset
