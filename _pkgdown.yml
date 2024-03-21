@@ -2,3 +2,5 @@ url: https://davrodecon.github.io/citmre/
 template:
   bootstrap: 5
 
+ - name: Configure GitHub Pages
+  uses: actions/configure-pages@v4.0.0
