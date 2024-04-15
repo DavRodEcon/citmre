@@ -1,0 +1,10 @@
+pandoc: 3.1.11
+pkgdown: 2.0.8
+pkgdown_sha: ~
+articles:
+  citmre: citmre.html
+last_built: 2024-04-15T16:49Z
+urls:
+  reference: https://davrodecon.github.io/citmre/reference
+  article: https://davrodecon.github.io/citmre/articles
+
