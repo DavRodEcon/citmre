@@ -17,6 +17,7 @@ knitr::opts_chunk$set(
 # citmre
 
 <!-- badges: start -->
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
 The Colombian Index Tool (Market Rate Exchange) package downloads the Colombian Market Rate from the source: <https://www.datos.gov.co/Econom-a-y-Finanzas/TRM/ceyp-9c7c/data>, for direct use in R.
