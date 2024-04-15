@@ -14,6 +14,7 @@ The Colombian Index Tool (Market Rate Exchange) package downloads the Colombian 
 Useful links:
 \itemize{
   \item \url{https://github.com/DavRodEcon/citmre}
+  \item \url{https://davrodecon.github.io/citmre/}
   \item Report bugs at \url{https://github.com/DavRodEcon/citmre/issues}
 }
 
