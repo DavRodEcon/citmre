@@ -10,6 +10,14 @@
 
 The Colombian Index Tool (Market Rate Exchange) package downloads the Colombian Market Rate from the source: Portal de Datos Abiertos <www.datos.gov.co>, for direct use in R.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/DavRodEcon/citmre}
+  \item Report bugs at \url{https://github.com/DavRodEcon/citmre/issues}
+}
+
+}
 \author{
 \strong{Maintainer}: David Rodríguez \email{davestss@hotmail.com} (\href{https://orcid.org/0000-0001-5430-0787}{ORCID})
 
