@@ -40,7 +40,7 @@ Once the package is installed, use the `rmre_data()` function to obtain the tota
 
 ```{r plot_1, fig.dim = c(7, 5), fig.align = 'center'}
 library(citmre)
-head(rmre_data()) 
+head(rmre_data())
 plot(rmre_data())
 ```
 
@@ -60,7 +60,6 @@ data_log <- rmre_data(start_date = "2005-03-18", end_date = "2019-06-26", log_re
 head(data_log)
 tail(data_log)
 plot(data_log)
-
 ```
 
 On some occasions, economic or financial variables do not necessarily use the same time-frequency of the daily series as in the RMRE. Colombia's GDP (Gross Domestic Product) is quarterly; therefore, the RMRE daily series must be transformed into a quarterly one. The `frequency` function displays the RMRE series in monthly (12), quarterly (4) and half-yearly (2) series. By default, the daily series will be (365). Frequencies can also be transformed to log_return
@@ -68,21 +67,20 @@ On some occasions, economic or financial variables do not necessarily use the sa
 The `type` function can approximate the series on mean or last date data. When `type = "mean" is used, the series gets the average value of the series in frequency. If `type = "last_date" is used, the last data of the series is used in frequency. By default, the `type` is set to `last_date`.
 
 ```{r plot_456,fig.dim = c(7, 5), fig.align = 'center'}
-
-#Monthly RMRE
-data_m <- rmre_data(start_date = "1998-03-18", end_date = "2019-06-26",frequency = 12)
+# Monthly RMRE
+data_m <- rmre_data(start_date = "1998-03-18", end_date = "2019-06-26", frequency = 12)
 head(data_m)
 tail(data_m)
 plot(data_m)
 
-#Quarterly
-data_q <- rmre_data(start_date = "1998-03-18", end_date = "2019-06-26",frequency = 4, log_return = T)
+# Quarterly
+data_q <- rmre_data(start_date = "1998-03-18", end_date = "2019-06-26", frequency = 4, log_return = T)
 head(data_q)
 tail(data_q)
 plot(data_q)
 
-#Half-year
-data_s <- rmre_data(start_date = "1998-03-18", end_date = "2019-06-26",frequency = 2, type = "mean")
+# Half-year
+data_s <- rmre_data(start_date = "1998-03-18", end_date = "2019-06-26", frequency = 2, type = "mean")
 head(data_s)
 tail(data_s)
 plot(data_s)
@@ -91,10 +89,8 @@ plot(data_s)
 Finally, some researchers feel that displaying a dynamic graph increases the analysis and learning methods, which is why the `plot_data` option can display a Plotly line graph, allowing the user to analyse the data through the Viewer (See https://plotly.com/r/line-charts/>). This option works well with the other options of the `rmre_data` function.
 
 ```{r plotly, eval=FALSE}
-
-#Monthly RMRE
-rmre_data(start_date = "1998-03-18", end_date = "2019-06-26",frequency = 12, plot_data = T)
-
+# Monthly RMRE
+rmre_data(start_date = "1998-03-18", end_date = "2019-06-26", frequency = 12, plot_data = T)
 ```
 
 # Final considerations

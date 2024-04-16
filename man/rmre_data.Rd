@@ -33,15 +33,15 @@ dataset in xts and zoo type
 Download the colombian RMRE source: Portal de Datos Abiertos <www.datos.gov.co>
 }
 \examples{
-#Show full series dataset
-rmre_serie <- rmre_data( )
+# Show full series dataset
+rmre_serie <- rmre_data()
 
-#Show monthly dataset with Plotly Graph
+# Show monthly dataset with Plotly Graph
 rmre_splited <- rmre_data(frequency = 12, log_return = F, plot_data = T)
 
-#Show quaterly log_return dataset with Plotly Graph
+# Show quaterly log_return dataset with Plotly Graph
 rmre_splited <- rmre_data(frequency = 4, log_return = T, plot_data = T, type = "mean")
 
-#Show splited log return dataset
-rmre_splited <- rmre_data('2000-01-01','2023-12-31',log_return = TRUE)
+# Show splited log return dataset
+rmre_splited <- rmre_data("2000-01-01", "2023-12-31", log_return = TRUE)
 }
