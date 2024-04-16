@@ -34,8 +34,7 @@
 #'
 #' # Show splited log return dataset
 #' rmre_splited <- rmre_data("2000-01-01", "2023-12-31", log_return = TRUE)
-
-  rmre_data <- function(start_date = NULL, end_date = NULL, log_return = FALSE, plot_data = FALSE, frequency = 365, type = "last_date") {
+rmre_data <- function(start_date = NULL, end_date = NULL, log_return = FALSE, plot_data = FALSE, frequency = 365, type = "last_date") {
   custom_error_handler <- function(e) {
     if (inherits(e, "simpleError")) {
       message(e$message)
@@ -326,4 +325,4 @@
     },
     error = custom_error_handler
   )
-  }
+}
