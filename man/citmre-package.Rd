@@ -4,11 +4,11 @@
 \name{citmre-package}
 \alias{citmre}
 \alias{citmre-package}
-\title{citmre: cITMre (Colombian Index Tool Market Rate Exchange)}
+\title{citmre: Colombian Index Tool Market Rate Exchange}
 \description{
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-The Colombian Index Tool (Market Rate Exchange) package downloads the Colombian Market Rate from the source: Portal de Datos Abiertos <www.datos.gov.co>, for direct use in R.
+The Colombian Index Tool (Market Rate Exchange) package downloads the Colombian Market Rate from the source: <www.datos.gov.co>, for direct use in R.
 }
 \seealso{
 Useful links:
