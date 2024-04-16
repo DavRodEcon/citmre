@@ -91,17 +91,17 @@
 </h2>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/DavRodEcon/citmre" class="external-link">citmre</a></span><span class="op">)</span></span>
-<span><span class="co">#Show full series dataset</span></span>
-<span><span class="va">rmre_serie</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/rmre_data.html">rmre_data</a></span><span class="op">(</span> <span class="op">)</span></span>
+<span><span class="co"># Show full series dataset</span></span>
+<span><span class="va">rmre_serie</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/rmre_data.html">rmre_data</a></span><span class="op">(</span><span class="op">)</span></span>
 <span></span>
-<span><span class="co">#Show monthly dataset with Plotly Graph</span></span>
+<span><span class="co"># Show monthly dataset with Plotly Graph</span></span>
 <span><span class="va">rmre_splited</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/rmre_data.html">rmre_data</a></span><span class="op">(</span>frequency <span class="op">=</span> <span class="fl">12</span>, log_return <span class="op">=</span> <span class="cn">F</span>, plot_data <span class="op">=</span> <span class="cn">T</span><span class="op">)</span></span>
 <span></span>
-<span><span class="co">#Show quaterly log_return dataset with Plotly Graph</span></span>
+<span><span class="co"># Show quaterly log_return dataset with Plotly Graph</span></span>
 <span><span class="va">rmre_splited</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/rmre_data.html">rmre_data</a></span><span class="op">(</span>frequency <span class="op">=</span> <span class="fl">4</span>, log_return <span class="op">=</span> <span class="cn">T</span>, plot_data <span class="op">=</span> <span class="cn">T</span>, type <span class="op">=</span> <span class="st">"mean"</span><span class="op">)</span></span>
 <span></span>
-<span><span class="co">#Show splited log return dataset</span></span>
-<span><span class="va">rmre_splited</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/rmre_data.html">rmre_data</a></span><span class="op">(</span><span class="st">'2000-01-01'</span>,<span class="st">'2023-12-31'</span>,log_return <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
+<span><span class="co"># Show splited log return dataset</span></span>
+<span><span class="va">rmre_splited</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/rmre_data.html">rmre_data</a></span><span class="op">(</span><span class="st">"2000-01-01"</span>, <span class="st">"2023-12-31"</span>, log_return <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
 <span><span class="co">#&gt; Warning in doTryCatch(return(expr), name, parentenv, handler): start_date:The</span></span>
 <span><span class="co">#&gt; information will be obtained from the next business day, as the desired date is</span></span>
 <span><span class="co">#&gt; a holiday or weekend.</span></span>
@@ -109,7 +109,7 @@
 <span><span class="co">#&gt; information will be obtained from the next business day, as the desired date is</span></span>
 <span><span class="co">#&gt; a holiday or weekend.</span></span>
 <span></span>
-<span><span class="co">#plot</span></span>
+<span><span class="co"># plot</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html" class="external-link">plot</a></span><span class="op">(</span><span class="va">rmre_serie</span><span class="op">)</span></span></code></pre></div>
 <p><img src="reference/figures/README-example-1.png" width="100%"></p>
 </div>
