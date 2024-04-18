@@ -3,7 +3,7 @@ pkgdown: 2.0.8
 pkgdown_sha: ~
 articles:
   citmre: citmre.html
-last_built: 2024-04-18T20:03Z
+last_built: 2024-04-18T20:16Z
 urls:
   reference: https://davrodecon.github.io/citmre/reference
   article: https://davrodecon.github.io/citmre/articles
