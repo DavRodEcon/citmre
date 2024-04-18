@@ -10,7 +10,7 @@ Authors@R: c(
            comment = c(ORCID = "0000-0001-5430-0787")
            )
         )
-Description: The Colombian Index Tool (Market Rate Exchange) package downloads the Colombian Market Rate from the source: <www.datos.gov.co>, for direct use in R.
+Description: Downloads the Representative Market Rate Exchange (RMRE) from the <www.datos.gov.co> source. Allows setting the data series in time frequencies, splitting the time series through start and end functions, transforming the data set in log returns or levels, and making a Dynamic graph.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

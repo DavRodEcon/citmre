@@ -20,7 +20,7 @@ knitr::opts_chunk$set(
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
-The Colombian Index Tool (Market Rate Exchange) package downloads the Colombian Market Rate from the source: <https://www.datos.gov.co/Econom-a-y-Finanzas/TRM/ceyp-9c7c/data>, for direct use in R.
+Downloads the Representative Market Rate Exchange (RMRE) from the <www.datos.gov.co> source. Allows setting the data series in time frequencies, splitting the time series through start and end functions, transforming the data set in log returns or levels, and making a Dynamic graph.
 
 ## Installation
 

@@ -8,7 +8,7 @@
 \description{
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-The Colombian Index Tool (Market Rate Exchange) package downloads the Colombian Market Rate from the source: <www.datos.gov.co>, for direct use in R.
+Downloads the Representative Market Rate Exchange (RMRE) from the <www.datos.gov.co> source. Allows setting the data series in time frequencies, splitting the time series through start and end functions, transforming the data set in log returns or levels, and making a Dynamic graph.
 }
 \seealso{
 Useful links:
