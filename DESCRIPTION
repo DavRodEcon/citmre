@@ -1,7 +1,7 @@
 Package: citmre
 Type: Package
 Title: Colombian Index Tool Market Rate Exchange
-Version: 0.1.0
+Version: 0.1.0.9000
 Authors@R: c(
     person("Sergio", "Sierra-Luján", email = "sergiochess95@gmail.com", role = c("aut","cph"),
            comment = c(ORCID = "0000-0003-4055-8810")
